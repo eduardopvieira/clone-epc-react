@@ -5,13 +5,13 @@ function Introducao() {
   return (
     <section>
       <div className="flex justify-center mx-40 mt-[10rem]">
-        <div className="columns-1 justify-center mt-[4rem]">
+        <div className="columns-1 justify-center mt-[4rem] ml-[5rem]">
           {" "}
           {/* div do titulo e descriçao */}
           <h1 className="text-3xl lg:text-5xl font-semibold lg:font-normal w-auto lg:w-4/6 text-center lg:text-start mb-5">
             ESCOLA PILOTO DE COMPUTAÇÃO
           </h1>
-          <p className="text-base text-justify mr-[12rem]">
+          <p className="text-base text-justify mr-[12rem] text-xl">
             {" "}
             As Escolas Piloto (EP) são iniciativas de extensão realizadas por
             estudantes e professores de universidades brasileiras. Esses
@@ -36,7 +36,7 @@ function Introducao() {
             </button>
           </div>
         </div>
-        <img src={fotobody} alt="imagem ilustrativa" className="w-[38rem]" />
+        <img src={fotobody} alt="imagem ilustrativa" className="w-[40rem]" />
       </div>
     </section>
   );

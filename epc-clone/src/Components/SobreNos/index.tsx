@@ -16,7 +16,7 @@ function SobreNos() {
         </div>
         <div className="flex flex-col justify-center">
           <h1 className="text-5xl ml-[5rem] mr-[2rem] mb-[2rem]">Sobre Nós</h1>
-          <p className="text-justify ml-[5rem] mr-[2rem] text-2l">
+          <p className="text-justify ml-[5rem] mr-[2rem] text-xl">
             A Escola Piloto de Computação teve sua origem em 2019, com a missão
             de promover eventos e atividades educacionais relacionados à
             computação e tecnologia. Entretanto, o ano de 2020 apresentou
