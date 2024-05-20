@@ -2,7 +2,7 @@ import equipeepc from "../../Assets/equipeepc.jpeg";
 
 function SobreNos() {
   return (
-    <section className="mt-[12rem]">
+    <section className="mt-[12rem]" id="AboutUs">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         <div className="flex flex-col items-center">
           <img

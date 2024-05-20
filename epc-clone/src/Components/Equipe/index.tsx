@@ -3,7 +3,7 @@ import membro from "../../Assets/MembrosEPC/user.png";
 
 function Equipe() {
   return (
-    <section>
+    <section id="Members">
       <div className="container flex flex-col items-center justify-center mt-[12rem] px-12 p-4 mx-auto">
         <p>MEMBROS EPC</p>
         <h1 className="text-4xl font-bold text-center pb-6">

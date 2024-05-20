@@ -1,5 +1,24 @@
 import logo2 from "../../Assets/logo2.svg";
 
+export const refs = [
+  {
+    title: "Home",
+    href: "#Home",
+  },
+  {
+    title: "Sobre Nós",
+    href: "#AboutUs",
+  },
+  {
+    title: "Eventos",
+    href: "#Events",
+  },
+  {
+    title: "Membros",
+    href: "#Members",
+  },
+];
+
 function Header() {
   return (
     <header className="lg:flex lg:justify-center lg:pt-4">
@@ -8,11 +27,15 @@ function Header() {
           <img src={logo2} alt="Logo da EPC" className="w-[12rem] pb-2 h-fit" />
         </div>
         <div className="w-1/2">
-          <ul className="flex gap-7 mr-8 justify-between">
-            <li className="text-lg font-semibold">Home</li>
-            <li className="text-lg font-semibold">Sobre Nós</li>
-            <li className="text-lg font-semibold">Eventos</li>
-            <li className="text-lg font-semibold">Membros</li>
+          <ul className="flex gap-7 mr-8 justify-between text-2xl">
+            {refs.map((ref) => (
+              <a
+                href={ref.href}
+                className="hover:text-gray-500 whitespace-nowrap"
+              >
+                {ref.title}
+              </a>
+            ))}
           </ul>
         </div>
       </div>
